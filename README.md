@@ -2,7 +2,7 @@
 
 Save-place for my Linux dofiles.
 
-```
+```bash
 # Create folder for bare Git Repository
 mkdir $HOME/.dotfiles
 
