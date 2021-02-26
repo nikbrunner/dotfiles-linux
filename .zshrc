@@ -47,7 +47,7 @@ alias dfp="df commit -a -m \"Updates\" && df push"
 
 ## Morning Script
 ## TODO Make this globally available
-alias morning="sh ~/.scripts/morning.sh"
+alias morning="dfp"
 alias update-stoic="npm run dist && sh ~/Documents/notes/getStoicTheme.sh"
 
 alias ls="ls -a"
