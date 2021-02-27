@@ -20,7 +20,8 @@ augroup END
 " hi VertSplit         guibg=NONE guifg=#8fbcbb
 
 " Switching themes
-map <F5>             :colorscheme gruvbox <bar> let g:airline_theme='gruvbox' <bar> set background=dark<CR>
-map <F6>             :colorscheme nord    <bar> let g:airline_theme='nord'    <bar> set background=dark<CR>
+map <F5>             :colorscheme gruvbox             <bar> let g:airline_theme='gruvbox' <bar> set background=dark<CR>
+map <F6>             :colorscheme gruvbox-material    <bar> let g:airline_theme='gruvbox' <bar> set background=dark<CR>
+map <F7>             :colorscheme nord                <bar> let g:airline_theme='nord'    <bar> set background=dark<CR>
 
-colorscheme gruvbox
+colorscheme gruvbox-material

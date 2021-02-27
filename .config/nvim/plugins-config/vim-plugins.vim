@@ -10,6 +10,7 @@ call plug#begin()
     " themes
     Plug 'arcticicestudio/nord-vim'
     Plug 'morhetz/gruvbox'
+    Plug 'sainnhe/gruvbox-material'
     Plug 'mkitt/tabline.vim'
     " Plug 'ryanoasis/vim-devicons'
     " Plug 'tiagofumo/vim-nerdtree-syntax-highlight'

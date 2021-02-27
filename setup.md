@@ -2,19 +2,21 @@
 
 ## Development
 
-
 ### Neovim
 
 - [x] Base
-- [ ] Provider
-- [ ] Config
-  - [ ] `dotfiles-linux`
+- [x] Provider
+- [x] Config
+  - [x] `dotfiles-linux`
   - [x] sets
   - [x] maps
   - [x] theme
     - [ ] patched font
-  - [ ] plugins
-  - [ ] plugins-config
+  - [x] plugins
+  - [x] plugins-config
+- [ ] Better Syntax Highlighting https://github.com/sainnhe/gruvbox-material#installation
+  - With Gruvbox Material 
+  - And Treesitter & Polygot
 
 ### VSCode
 
