@@ -53,15 +53,19 @@ alias update-stoic="npm run dist && sh ~/Documents/notes/getStoicTheme.sh"
 alias ls="ls -a"
 
 # Edit Config Files ======================================================
-EDITOR="nvim"
-NVIM_PATH="~/.config/nvim"
-TMUX_PATH="~"
-alias vim="nvim"
-alias v="nvim"
+# nvim
+# EDITOR="nvim" # Stable
+
+# nvim-nightly
+EDITOR="/usr/share/nvim-nightly.appimage"
+
+alias vim=$EDITOR
+alias v=$EDITOR
+
 alias dfconfig="$EDITOR -S ~/df.vim"
-alias vimconfig="$EDITOR $NVIM_PATH/init.vim"
+alias vimconfig="$EDITOR ~/.config/nvim/init.vim"
 alias zshconfig="$EDITOR ~/.zshrc"
-alias tmuxconfig="$EDITOR $TMUX_PATH/.tmux.conf"
+alias tmuxconfig="$EDITOR ~/.tmux.conf"
 alias alaconfig="$EDITOR ~/.config/alacritty/alacritty.yml"
 
 # Path Declaration =======================================================
