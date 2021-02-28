@@ -44,6 +44,7 @@ call plug#begin()
 
     " Language server
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'sheerun/vim-polyglot'
 
     " git
     Plug 'tpope/vim-fugitive'
