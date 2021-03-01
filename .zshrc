@@ -32,7 +32,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-vi-mode)
 
-# export TERM=screen-256color
+# export TERM=xterm-256color
 
 source $ZSH/oh-my-zsh.sh
 

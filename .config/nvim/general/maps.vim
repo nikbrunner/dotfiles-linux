@@ -76,8 +76,8 @@ nnoremap <silent><F12>                       <Esc><Esc>:Rg<space><CR>
 let g:user_emmet_leader_key=                 '<C-y>'
 
 " git-fugitive
-nnoremap <leader>gs                          :G<CR>
-nnoremap <leader>gc                          :Gcommit<CR>
+nnoremap <leader>gs                          :Git <CR>
+nnoremap <leader>gc                          :Git commit<CR>
 nnoremap <leader>gpu                         :Git push<CR>
 nnoremap <leader>gpl                         :Git pull<CR>
 nnoremap <leader>gl                          :GV<CR>
